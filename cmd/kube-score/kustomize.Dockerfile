@@ -10,7 +10,7 @@ RUN apt-get update && \
     tar xzvf kustomize.tar.gz && \
     chmod +x kustomize
 
-FROM alpine:3.10.1
+FROM alpine:3.14
 RUN apk update && \
     apk upgrade && \
     apk add bash ca-certificates git
