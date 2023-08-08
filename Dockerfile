@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-ARG ALPINE_IMAGE=alpine:3.17.0
+ARG ALPINE_IMAGE=alpine:3.18.3
 
 FROM ${ALPINE_IMAGE} as args
 ARG HELM_VERSION=v3.10.2
